@@ -1,4 +1,7 @@
-import os
+from scrapers.csmobiles import obter_preco as csmobiles
+from scrapers.darty import obter_preco as darty
+from scrapers.movertix import obter_preco as movertix
+from scrapers.amazon_de import obter_preco as amazon_deimport os
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
